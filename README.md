@@ -4,7 +4,7 @@ An AI-powered football video analysis system that uses YOLO object detection and
 
 ## 🎯 Features
 
-- **Object Detection & Tracking**: Automatically detects and tracks players, referees, and the football using YOLOv8
+- **Object Detection & Tracking**: Automatically detects and tracks players, referees, and the football using YOLOv11
 - **Team Assignment**: Identifies and assigns players to teams based on jersey colors using K-means clustering
 - **Ball Possession Analysis**: Determines which player has control of the ball at any given moment
 - **Camera Movement Compensation**: Accounts for camera panning and movement to provide accurate position tracking
@@ -93,7 +93,7 @@ The system uses caching to speed up repeated runs:
 ## 🧠 How It Works
 
 ### 1. Object Detection & Tracking
-The system uses a fine-tuned YOLOv8 model to detect:
+The system uses a fine-tuned YOLOv11 model to detect:
 - Players (including goalkeepers)
 - Referees
 - Football

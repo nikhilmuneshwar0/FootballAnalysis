@@ -58,7 +58,7 @@ pip install ultralytics opencv-python numpy pandas supervision
 
 The project relies on the following key libraries:
 
-- **ultralytics**: YOLOv8 implementation for object detection
+- **ultralytics**: YOLOv11 implementation for object detection
 - **supervision**: Object tracking utilities (ByteTrack)
 - **opencv-python (cv2)**: Video processing and computer vision operations
 - **numpy**: Numerical computations
